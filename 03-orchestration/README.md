@@ -1,3 +1,7 @@
+# HW03
+see: [mlops/homework_03](./mlops/homework_03/)
+
+
 # Setup
 
 1. Clone repo:
