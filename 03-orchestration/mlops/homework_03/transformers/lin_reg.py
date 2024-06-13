@@ -75,6 +75,7 @@ def transform(df, *args, **kwargs):
             model_size_bytes = os.path.getsize(lr_path)
 
             mlflow.log_artifact(lr_path)
+            # mlflow.log_model(lr_model, 'model') # from HW03 solution 
 
             dv_path = os.path.join(temp_dir, "DictVectorizer.pkl")
 
